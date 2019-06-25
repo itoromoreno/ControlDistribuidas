@@ -1,0 +1,46 @@
+!SESSION 2019-06-25 11:32:40.879 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\USRBET\Documents\GitHub\ControlDistribuidas -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2019-06-25 11:32:50.432
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-25 11:32:50.432
+!MESSAGE A conflict occurred for ALT+SHIFT+D C:
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(com.google.gdt.eclipse.designer.launch.gwtCompilerLaunchShortcut.debug,Debug Compile GWT Application,
+		Debug Compile GWT Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c89e263,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.debug,Debug AspectJ/Java Application,
+		Debug AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d5ea776,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-25 11:32:50.432
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(com.google.gdt.eclipse.designer.launch.gwtCompilerLaunchShortcut.run,Run Compile GWT Application,
+		Run Compile GWT Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d68be4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34eb5d01,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

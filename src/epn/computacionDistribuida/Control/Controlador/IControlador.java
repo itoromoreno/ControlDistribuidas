@@ -4,5 +4,5 @@ public interface IControlador {
 
 	public void iniciar();
 	public void parar();
-	public void activarSistemaAntiincendios();
+	public void recibirNotificaciones(Estado e);
 }
