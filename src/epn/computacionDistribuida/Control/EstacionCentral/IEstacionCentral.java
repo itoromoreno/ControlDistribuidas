@@ -4,4 +4,4 @@ public interface IEstacionCentral {
 
 	public void recibirEstado();
 	
-}
+}f
