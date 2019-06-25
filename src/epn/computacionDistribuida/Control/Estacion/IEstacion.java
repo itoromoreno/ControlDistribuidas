@@ -1,4 +1,5 @@
 package epn.computacionDistribuida.Control.Estacion;
+import epn.computacionDistribuida.Control.commons.estado.*;
 
 public interface IEstacion {
 
