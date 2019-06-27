@@ -1,10 +1,14 @@
 package epn.computacionDistribuida.Control.commons.estado;
 
-public class Estado {
+import java.io.Serializable;
 
-	public static enum Estados{
+public class Estado implements Serializable{
+
+	public enum Estados{
 		Correcto,
 		Incorrecto,
 		Fuego
 	}
+	
+	public Estados estado;
 }
