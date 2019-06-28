@@ -11,6 +11,5 @@ public interface IEstacion extends Remote{
 	public void activarSA() throws RemoteException;
 	public void generarEstado() throws RemoteException;
 	public Estado reportarEstado() throws RemoteException;
-	public void cambiarEstado() throws RemoteException;
-	
+		
 }
